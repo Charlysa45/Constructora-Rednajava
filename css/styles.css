@@ -1,0 +1,26 @@
+body{
+    margin: 0%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(240, 193, 136);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+#header-right-side{
+    display: flex;
+}
+
+#header-nav-menu{
+    list-style: none;
+}
+
+.header-nav-menu-item{
+    margin-right: 20px;
+}
