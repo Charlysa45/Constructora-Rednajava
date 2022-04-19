@@ -24,3 +24,31 @@ header{
 .header-nav-menu-item{
     margin-right: 20px;
 }
+
+footer{
+    background-color: rgb(240, 193, 136);
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 150px;
+    padding-left: 150px;
+    justify-content: space-between;
+}
+
+#footer-left-side{
+    display: flex;
+}
+
+.footer-FAQ{
+    margin-right: 20px;
+}
+
+#footer-right-side{
+    display: flex;
+    align-items: center;
+}
+
+.footer-icons-icon{
+    width: 70px;
+    margin-right: 10px;
+}
