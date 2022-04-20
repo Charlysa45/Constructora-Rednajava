@@ -1,0 +1,47 @@
+/*===== GOOGLE FONTS =====*/
+@font-face {
+  font-family: "Open_Sans_Condensed";
+  src: url("fonts/Open_Sans_Condensed/OpenSansCondensed-Bold.ttf");
+}
+
+/*===== Fuente y tipografia =====*/
+:root{
+  --body-font: 'Open_Sans_Condensed', sans-serif;
+}
+
+body{
+  font-family: var(--body-font);
+}
+
+form.example input[type=text] {
+    padding: 28px;
+    /*font-size: 15px;*/
+    border: 1px solid grey;
+    float: left;
+    width: 65%;
+    background: #f1f1f1;
+    margin: auto;
+    max-width: 300px;
+  }
+  
+  form.example .ButtonSearch {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: hsl(31, 100%, 70%);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example .ButtonSearch:hover {
+    background: hsl(31, 100%, 59%);
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

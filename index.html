@@ -2,79 +2,675 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Constructora</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <!--===============================================================================================-->
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="Content-Language" lang="es">
+	<meta name="theme-color" content="#000000">
+	<meta name="msapplication-TileColor" content="#000000">
+	<meta name="msapplication-navbutton-color" content="#000000">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+	<meta name="robots" content="all">
+	<meta name="geo.placename" content="Bogotá D.C., Colombia.">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+    <!--===============================================================================================-->
+    <title data-rh="true">Constructora&reg;.</title>
+    <!--===============================================================================================-->
+    <link rel="canonical" href="#">
+
+	<meta property="og:title" content="Constructora&reg;.">
+	<meta property="og:url" content="#">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Constructora&reg;.">
+	<meta property="og:description" content="Constructora&reg;.">
+	<meta property="og:locale" content="es_ES">
+
+	<meta name="dc.title" content="Constructora&reg;.">
+	<meta name="dc.subject" content="Constructora&reg;.">
+	<meta name="dc.description" content="Constructora&reg;.">
+	<meta name="dc.format" content="#">
+	<meta name="dc.language" content="es">
+
+	<meta data-rh="true" id="meta-og-title" property="og:title" content="Constructora&reg;.">
+	<meta data-rh="true" id="meta-og-description" property="og:description" content="Constructora&reg;.">
+	<meta data-rh="true" id="meta-og-site_name" property="og:site_name" content="Constructora&reg;.">
+
+	<meta name="title" content="Constructora&reg;.">
+	<meta name="author" content="Constructora&reg;.">
+	<meta name="keywords" content="Constructora&reg;.">
+	<meta name="description" content="Constructora&reg;.">
+	<meta name="application-name" content="Constructora&reg;.">
+	<meta &#64; CopyRight Constructora&reg;.. Todos Los Derechos Reservados&#46;>
+    <!--===============================================================================================-->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/icons/logo-Constructora.ico" />
+	<link rel="apple-touch-icon" href="assets/img/icons/logo-Constructora.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" media="all" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="assets/css/stylesBodyIndex.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="assets/css/sliderBodyIndex.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="assets/css/StyleviviendaIndex.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="assets/css/StyleTeam.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="assets/css/styleSearch.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="assets/css/styleButton.css" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome-free-6.1.1-web/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome-free-6.1.1-web/css/all.min.css" />
+    <!--===============================================================================================-->
 </head>
 <body>
-    <header>
-        <div id="header-left-side">
-            <img src="" alt="logo-png" id="header-logo">
-        </div>
-        <div id="header-right-side">
-            <nav id="header-nav">
-                <ul id="header-nav-menu">
-                    <li class="header-nav-menu-item">Ventas</li>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo" rel="noopener noreferrer" aria-label="HEADER">
+                <img src="assets/img/icons/logo-Constructora.png" alt="Constructora&reg;." title="Constructora&reg;." />
+            </a>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="fa-brands fa-themeco change-theme" id="theme-button"></i>
+
+                <div class="nav__shop" id="cart-shop">
+                    <i class="fa-solid fa-user-shield"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt" ></i>
+                </div>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link" rel="noopener noreferrer" aria-label="HEADER">
+                            Inicio.
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#vivienda" class="nav__link" rel="noopener noreferrer" aria-label="HEADER">
+                            Vivienda.
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#new" class="nav__link" rel="noopener noreferrer" aria-label="HEADER">
+                            Equipo.
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <form action="" class="example" method="POST">
+                            <input type="text" placeholder="Busca Aquí.!?" name="search">
+                            <button class="ButtonSearch" type="submit" aria-label="Busca Aquí.!?">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </li>
                 </ul>
-            </nav>
-            <input type="text" placeholder="busca aquí..." id="header-input">
-            <button id="header-button">Buscar</button>
-        </div>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x" ></i>
+                </div>
+            </div>
+        </nav>
     </header>
+    <!--==================== /HEADER ====================-->
+    <!--==================== LOGIN ====================-->
+    <div class="cart" id="cart">
+        <i class="bx bx-x cart__close" id="cart-close"></i>
 
-    <main>
-        <section>
-            <div id="banner-carousel">
-                <img src="" alt="banner-img" id="banner-carousel-img">
-            </div>
-        </section>
+        <h2 class="cart__title-center"><i class="fa-solid fa-user-shield"></i> Mi Cuenta.</h2>
 
-        <section>
-            <div id="projects-carousel">
-                <div class="projects-carousel-card">
-                    <img src="" alt="project-img" class="projects-carousel-card-img">
-                    <div class="projects-carousel-card-content">
-                        <h3>Titulo proyecto</h3>
-                        <p>descripcion proyecto</p>
+        <div class="cart__container">
+            <article class="cart__card">
+                <a href="#" class="custom-btn btn-7" target="_blank" rel="noopener noreferrer" aria-label="LOGIN">
+                    <i class="bx bx-user-plus" ></i> Crear Cuenta.
+                </a>
+            </article>
+            
+            <article class="cart__card">
+                <a href="#" class="custom-btn btn-5" target="_blank" rel="noopener noreferrer" aria-label="LOGIN">
+                    <i class="bx bx-user" ></i> Iniciar Sesión.
+                </a>
+            </article>
+        </div>
+
+        <div class="cart__prices">
+            <a href="https://www.facebook.com/" target="_blank" class="home__social-link" rel="noopener noreferrer" aria-label="LOGIN">
+                Facebook <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank" class="home__social-link" rel="noopener noreferrer" aria-label="LOGIN">
+                Twitter <i class="fa-brands fa-twitter-square"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="home__social-link" rel="noopener noreferrer" aria-label="LOGIN">
+                Instagram <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" class="home__social-link" rel="noopener noreferrer" aria-label="LOGIN">
+                YouTube <i class="fa-brands fa-youtube"></i>
+            </a>
+        </div>
+    </div>
+    <!--==================== /LOGIN ====================-->
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="slide">
+                    <div class="slide-inner">
+                        <input class="slide-open" type="radio" id="slide-1" 
+                              name="slide" aria-hidden="true" hidden="" checked="checked">
+                        <div class="slide-item">
+                            <img src="assets/img/slider/hero-1.jpg" alt="HOME">
+                        </div>
+                        <input class="slide-open" type="radio" id="slide-2" 
+                              name="slide" aria-hidden="true" hidden="">
+                        <div class="slide-item">
+                            <img src="assets/img/slider/hero-2.jpg" alt="HOME">
+                        </div>
+                        <input class="slide-open" type="radio" id="slide-3" 
+                              name="slide" aria-hidden="true" hidden="">
+                        <div class="slide-item">
+                            <img src="assets/img/slider/hero-3.jpg" alt="HOME">
+                        </div>
+                        <label for="slide-3" class="slide-control prev control-1">‹</label>
+                        <label for="slide-2" class="slide-control next control-1">›</label>
+                        <label for="slide-1" class="slide-control prev control-2">‹</label>
+                        <label for="slide-3" class="slide-control next control-2">›</label>
+                        <label for="slide-2" class="slide-control prev control-3">‹</label>
+                        <label for="slide-1" class="slide-control next control-3">›</label>
+                        <ol class="slide-indicador">
+                            <li>
+                                <label for="slide-1" class="slide-circulo">•</label>
+                            </li>
+                            <li>
+                                <label for="slide-2" class="slide-circulo">•</label>
+                            </li>
+                            <li>
+                                <label for="slide-3" class="slide-circulo">•</label>
+                            </li>
+                        </ol>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section>
-            <div id="constructors-profiles">
-                <div class="constructors-profiles-card">
-                    <img src="" alt="constructor-profile-logo">
-                    <div class="constructors-profiles-card-content">
-                        <h3>Nombre del constructor</h3>
-                        <p>perfil del constructor</p>
+        <!--==================== /HOME ====================-->
+        <!--==================== VIVIENDA ====================-->
+        <section class="product-slider" id="vivienda">
+            
+            <!--==================== Heading ====================-->
+            <h2 class="section__title">Vivienda.</h2>
+            <!--==================== btns ====================-->
+            <div class="slider-btns">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="slider-container">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== 1 ================================-->
+                        <div class="swiper-slide">
+                        <!--==================== box ====================-->
+                        <div class="product-box">
+                            <!--==================== offer ====================-->
+                            <span class="product-box-offer">-20%</span>
+                            <!--==================== img-container ====================-->
+                            <div class="product-img-container">
+                
+                            <!--==================== img ====================-->
+                            <div class="product-img">
+                            <a href="#" rel="noopener noreferrer" aria-label="Vivienda">
+                                <img alt="Vivienda" class="product-img-front" src="assets/img/vivienda/viviendaA1.jpg" />
+                                <img alt="Vivienda" class="product-img-back" src="assets/img/vivienda/viviendaA4.jpg" />
+                            </a>
+                            </div>
+                            </div>
+                            <!--==================== text ====================-->
+                            <div class="product-box-text">
+                                <!--category-->
+                                <div class="product-category">
+                                    <span>Villa in Los Angeles</span>
+                                </div>
+                                <!--tile--->
+                                <a href="#" class="product-title" rel="noopener noreferrer" aria-label="Vivienda">
+                                    Upper Road 3411, no.34 CA
+                                </a>
+                                <!--Price--->
+                                <div class="price-buy">
+                                    <span class="p-price">$120.000.000</span>
+                                    <br />
+                                    <a href="#" class="custom-btn btn-13" rel="noopener noreferrer" aria-label="Vivienda">
+                                        <i class="fa-solid fa-eye"></i> Ver.
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <!--==================== 2 ================================-->
+                        <div class="swiper-slide">
+                            <!--==================== box ====================-->
+                            <div class="product-box">
+                                <!--==-->
+                                <span class="product-box-offer">-40%</span>
+                    
+                                <!--==================== img-container ====================-->
+                                <div class="product-img-container">
+                    
+                                <!--==================== img ====================-->
+                                <div class="product-img">
+                                <a href="#" rel="noopener noreferrer" aria-label="Vivienda">
+                                    <img alt="Vivienda" class="product-img-front" src="assets/img/vivienda/viviendaA2.jpg" />
+                                    <img alt="Vivienda" class="product-img-back" src="assets/img/vivienda/viviendaA5.jpg" />
+                                </a>
+                                </div>
+                                </div>
+                    
+                                <!--==================== text ====================-->
+                                <div class="product-box-text">
+                                    <!--category-->
+                                    <div class="product-category">
+                                        <span>Town House in Los Angeles</span>
+                                    </div>
+                                    <!--tile-->
+                                    <a href="#" class="product-title" rel="noopener noreferrer" aria-label="Vivienda">
+                                        Upper Road 3411, no.34 CA
+                                    </a>
+                                    <!--Price-->
+                                    <div class="price-buy">
+                                        <span class="p-price">$110.000.000</span>
+                                        <br />
+                                        <a href="#" class="custom-btn btn-13" rel="noopener noreferrer" aria-label="Vivienda">
+                                            <i class="fa-solid fa-eye"></i> Ver.
+                                        </a>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                            </div>
+                            <!--==================== 3 ====================-->
+                        <div class="swiper-slide">
+                            <!--==================== box ====================-->
+                            <div class="product-box">
+                                <!--==-->
+                                <span class="product-box-offer">-60%</span>
+                    
+                                <!--==================== img-container ====================-->
+                                <div class="product-img-container">
+                    
+                                <!--==================== img ====================-->
+                                <div class="product-img">
+                                <a href="#" rel="noopener noreferrer" aria-label="Vivienda">
+                                    <img alt="Vivienda" class="product-img-front" src="assets/img/vivienda/viviendaA3.jpg" />
+                                    <img alt="Vivienda" class="product-img-back" src="assets/img/vivienda/viviendaA6.jpg" />
+                                </a>
+                                </div>
+                                </div>
+                    
+                                <!--==================== text ====================-->
+                                <div class="product-box-text">
+                                    <!--category-->
+                                    <div class="product-category">
+                                        <span>Town House in Los Angeles</span>
+                                    </div>
+                                    <!--tile-->
+                                    <a href="#" class="product-title" rel="noopener noreferrer" aria-label="Vivienda">
+                                        Upper Road 3411, no.34 CA
+                                    </a>
+                                    <!--Price-->
+                                    <div class="price-buy">
+                                        <span class="p-price">$105.000.000</span>
+                                        <br />
+                                        <a href="#" class="custom-btn btn-13" rel="noopener noreferrer" aria-label="Vivienda">
+                                            <i class="fa-solid fa-eye"></i> Ver.
+                                        </a>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                            </div>
+                            <!--==================== 6 ====================-->
+                        <div class="swiper-slide">
+                            <!--==================== box ====================-->
+                            <div class="product-box">
+                                <!--==-->
+                                <span class="product-box-offer">-70%</span>
+                    
+                                <!--==================== img-container ====================-->
+                                <div class="product-img-container">
+                    
+                                <!--==================== img ====================-->
+                                <div class="product-img">
+                                <a href="#" rel="noopener noreferrer" aria-label="Vivienda">
+                                    <img alt="Vivienda" class="product-img-front" src="assets/img/vivienda/viviendaA1.jpg" />
+                                    <img alt="Vivienda" class="product-img-back" src="assets/img/vivienda/viviendaA4.jpg" />
+                                </a>
+                                </div>
+                                </div>
+                    
+                                <!--==================== text ====================-->
+                                <div class="product-box-text">
+                                    <!--category-->
+                                    <div class="product-category">
+                                        <span>Villa in Los Angeles</span>
+                                    </div>
+                                    <!--tile-->
+                                    <a href="#" class="product-title" rel="noopener noreferrer" aria-label="Vivienda">
+                                        Upper Road 3411, no.34 CA
+                                    </a>
+                                    <!--Price-->
+                                    <div class="price-buy">
+                                        <span class="p-price">$100.000.000</span>
+                                        <br />
+                                        <a href="#" class="custom-btn btn-13" rel="noopener noreferrer" aria-label="Vivienda">
+                                            <i class="fa-solid fa-eye"></i> Ver.
+                                        </a>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                            </div>
+                            <!--==================== 4 ====================-->
+                        <div class="swiper-slide">
+                            <!--==================== box ====================-->
+                            <div class="product-box">
+                                <!--==-->
+                                <span class="product-box-offer">-20%</span>
+                    
+                                <!--==================== img-container ====================-->
+                                <div class="product-img-container">
+                    
+                                <!--==================== img ====================-->
+                                <div class="product-img">
+                                <a href="#" rel="noopener noreferrer" aria-label="Vivienda">
+                                    <img alt="Vivienda" class="product-img-front" src="assets/img/vivienda/viviendaA2.jpg" />
+                                    <img alt="Vivienda" class="product-img-back" src="assets/img/vivienda/viviendaA5.jpg" />
+                                </a>
+                                </div>
+                                </div>
+                    
+                                <!--==================== text ====================-->
+                                <div class="product-box-text">
+                                    <!--category-->
+                                    <div class="product-category">
+                                        <span>Town House in Los Angeles</span>
+                                    </div>
+                                    <!--tile-->
+                                    <a href="#" class="product-title" rel="noopener noreferrer" aria-label="Vivienda">
+                                        Upper Road 3411, no.34 CA
+                                    </a>
+                                    <!--Price-->
+                                    <div class="price-buy">
+                                        <span class="p-price">$130.000.000</span>
+                                        <br />
+                                        <a href="#" class="custom-btn btn-13" rel="noopener noreferrer" aria-label="Vivienda">
+                                            <i class="fa-solid fa-eye"></i> Ver.
+                                        </a>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                            </div>
+                            <!--==================== 5 ====================-->
+                        <div class="swiper-slide">
+                            <!--==================== box ====================-->
+                            <div class="product-box">
+                                <!--==-->
+                                <span class="product-box-offer">-60%</span>
+                    
+                                <!--==================== img-container ====================-->
+                                <div class="product-img-container">
+                    
+                                <!--==================== img ====================-->
+                                <div class="product-img">
+                                <a href="#" rel="noopener noreferrer" aria-label="Vivienda">
+                                    <img alt="Vivienda" class="product-img-front" src="assets/img/vivienda/viviendaA3.jpg" />
+                                    <img alt="Vivienda" class="product-img-back" src="assets/img/vivienda/viviendaA6.jpg" />
+                                </a>
+                                </div>
+                                </div>
+                    
+                                <!--==================== text ====================-->
+                                <div class="product-box-text">
+                                    <!--category-->
+                                    <div class="product-category">
+                                        <span>Town House in Los Angeles</span>
+                                    </div>
+                                    <!--tile-->
+                                    <a href="#" class="product-title" rel="noopener noreferrer" aria-label="Vivienda">
+                                        Upper Road 3411, no.34 CA
+                                    </a>
+                                    <!--Price-->
+                                    <div class="price-buy">
+                                        <span class="p-price">$120.000.000</span>
+                                        <br />
+                                        <a href="#" class="custom-btn btn-13" rel="noopener noreferrer" aria-label="Vivienda">
+                                            <i class="fa-solid fa-eye"></i> Ver.
+                                        </a>
+                                    </div>
+                                </div>
+                    
+                            </div>
+                            </div>
+                            
                     </div>
                 </div>
             </div>
         </section>
-
+        <!--==================== /VIVIENDA ====================-->
+        <!--==================== TEAM ====================-->
+        <section class="new section container" id="new">
+            <h2 class="section__title">
+                Equipos.
+            </h2>
+            
+            <div class="new__container">
+                <div class="swiper new-swiper">
+                    <div class="swiper-wrapper">
+                        <article>
+                            <div class="rowTeam">
+                                <div class="columnTeam">
+                                    <div class="cardTeam">
+                                        <img src="assets/img/team/menA1.png" alt="Jane" class="imgTeam" />
+                                        <div class="containerTeam">
+                                        <h2>Tu Nombre Completo.</h2>
+                                        <p class="titleTeam">Egresado</p>
+                                        <p>Desarrollo Front-End</p>
+                                        <p>example@example.com</p>
+                                        <p>
+                                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link" rel="noopener noreferrer" aria-label="Team">
+                                                <i class="fa-brands fa-facebook"></i>
+                                            </a>
+                                            <a href="https://twitter.com/" target="_blank" class="home__social-link" rel="noopener noreferrer" aria-label="Team">
+                                                <i class="fa-brands fa-twitter-square"></i>
+                                            </a>
+                                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link" rel="noopener noreferrer" aria-label="Team">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="https://www.youtube.com/" target="_blank" class="home__social-link" rel="noopener noreferrer" aria-label="Team">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                        </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="columnTeam">
+                                    <div class="cardTeam">
+                                        <img src="assets/img/team/menA2.png" alt="Mike" class="imgTeam" />
+                                        <div class="containerTeam">
+                                            <h2>Tu Nombre Completo.</h2>
+                                            <p class="titleTeam">Egresado</p>
+                                            <p>Desarrollo Front-End</p>
+                                            <p>example@example.com</p>
+                                            <p>
+                                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link" rel="noopener noreferrer" aria-label="Team">
+                                                <i class="fa-brands fa-facebook"></i>
+                                            </a>
+                                            <a href="https://twitter.com/" target="_blank" class="home__social-link" rel="noopener noreferrer" aria-label="Team">
+                                                <i class="fa-brands fa-twitter-square"></i>
+                                            </a>
+                                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link" rel="noopener noreferrer" aria-label="Team">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="https://www.youtube.com/" target="_blank" class="home__social-link" rel="noopener noreferrer" aria-label="Team">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="columnTeam">
+                                    <div class="cardTeam">
+                                        <img src="assets/img/team/menA3.png" alt="John" class="imgTeam" />
+                                        <div class="containerTeam">
+                                            <h2>Tu Nombre Completo.</h2>
+                                            <p class="titleTeam">Egresado</p>
+                                            <p>Desarrollo Front-End</p>
+                                            <p>example@example.com</p>
+                                            <p>
+                                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link" rel="noopener noreferrer" aria-label="Team">
+                                                <i class="fa-brands fa-facebook"></i>
+                                            </a>
+                                            <a href="https://twitter.com/" target="_blank" class="home__social-link" rel="noopener noreferrer" aria-label="Team">
+                                                <i class="fa-brands fa-twitter-square"></i>
+                                            </a>
+                                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link" rel="noopener noreferrer" aria-label="Team">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="https://www.youtube.com/" target="_blank" class="home__social-link" rel="noopener noreferrer" aria-label="Team">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==================== /TEAM ====================-->
     </main>
+    <!--==================== /MAIN ====================-->
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="index.html" class="nav__logo" rel="noopener noreferrer" aria-label="Footer">
+                    <img src="assets/img/icons/logo-Constructora.png" alt="Constructora&reg;." title="Constructora&reg;." />
+                </a>
 
-    <footer>
-        <div id="footer-left-side">
-            <div class="footer-FAQ">
-                <h4>Acerca de</h4>
-                <h4>Terminos y Condiciones</h4>
+                <ul class="footer__list">
+                    <li>
+                        <i class="fa-solid fa-comment-dots"></i> Escríbenos:
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i> Nacional: (00-0000-000-000)
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i> Bogotá: (1)(000-0000)
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-mobile-screen-button"></i> WhatsApp: (300-000-00-00)
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-at"></i> constructora@ejemplo.com
+                    </li>
+                </ul>
             </div>
-            <div class="footer-FAQ">
-                <h4>Preguntas Frecuentes</h4>
-                <h4>Politica de Privacidad</h4>
+            <div class="footer__content">
+                <h3 class="footer__title">ASISTENCIA.</h3>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link" rel="noopener noreferrer" aria-label="Footer">
+                            <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>  Terminos y Condiciones.
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link" rel="noopener noreferrer" aria-label="Footer">
+                            <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>  Preguntas Frecuentes.
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link" rel="noopener noreferrer" aria-label="Footer">
+                            <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>  Politica De Privacidad.
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">INFORMACIÓN DE LA EMPRESA.</h3>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link" rel="noopener noreferrer" aria-label="Footer">
+                            <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>  Acerca De.
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link" rel="noopener noreferrer" aria-label="Footer">
+                            <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>  Contacto.
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Redes Sociales.</h3>
+                <ul class="footer__social">
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link" rel="noopener noreferrer" aria-label="Footer">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link" rel="noopener noreferrer" aria-label="Footer">
+                            <i class="fa-brands fa-twitter-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link" rel="noopener noreferrer" aria-label="Footer">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social-link" rel="noopener noreferrer" aria-label="Footer">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-
-        <div id="footer-right-side">
-            <div id="footer-icons">
-                <img src="./assets/icons/Facebook.png" alt="fb-icon" class="footer-icons-icon">
-                <img src="./assets/icons/Twitter.png" alt="tw-icon" class="footer-icons-icon">
-                <img src="./assets/icons/LinkedIn.png" alt="li-icon" class="footer-icons-icon">
-            </div>
-        </div>
+        <span class="footer__copy">
+            <!-- CopyRight -->
+            CopyRight &copy;
+            <script type="text/javascript" charset="UTF-8">
+                document.write(new Date().getFullYear());
+            </script>
+            &#9474; Todos Los Derechos Reservados.
+            &#9474; Distribuido Por
+            <a href="index.html" rel="noopener noreferrer" aria-label="CopyRight">
+                <strong><span><b>Constructora&reg;.</b></span></strong>
+            </a>
+            <!-- CopyRight -->
+        </span>
     </footer>
+    <!--==================== /FOOTER ====================-->
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up" rel="noopener noreferrer" aria-label="Scroll Up"> 
+        <i class="bx bx-up-arrow-alt scrollup__icon" ></i>
+    </a>
+    <!--=============== /SCROLL UP ===============-->
+    <!--===============================================================================================-->
+    <script type="text/javascript" charset="UTF-8" src="assets/js/swiper-bundle.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" charset="UTF-8" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" charset="UTF-8" src="assets/js/main.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" charset="UTF-8" src="assets/js/javaScript.js"></script>
+    <!--===============================================================================================-->
 </body>
 </html>

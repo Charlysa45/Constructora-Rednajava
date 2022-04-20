@@ -1,0 +1,50 @@
+/*===== GOOGLE FONTS =====*/
+@font-face {
+  font-family: "Open_Sans_Condensed";
+  src: url("fonts/Open_Sans_Condensed/OpenSansCondensed-Bold.ttf");
+}
+
+/*===== Fuente y tipografia =====*/
+:root{
+  --body-font: 'Open_Sans_Condensed', sans-serif;
+}
+
+body{
+  font-family: var(--body-font);
+}
+
+.columnTeam {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 60px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .columnTeam {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .cardTeam {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .containerTeam {
+    padding: 0 0px;
+  }
+  
+  .containerTeam::after, .rowTeam::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .titleTeam {
+    color: grey;
+  }
+
+  .imgTeam{
+    width:100%;
+  }
