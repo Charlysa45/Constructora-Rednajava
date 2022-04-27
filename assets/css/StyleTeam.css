@@ -20,7 +20,7 @@ body{
     padding: 0 60px;
   }
   
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 767px) {
     .columnTeam {
       width: 100%;
       display: block;
